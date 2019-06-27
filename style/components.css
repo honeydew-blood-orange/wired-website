@@ -1,0 +1,102 @@
+/****************************************
+ * Write your code in the sections below!
+ ****************************************/
+
+/* header styles */
+
+header {
+    display: flex;
+    max-width: 880px;
+    width: 100%;
+    margin: 12px auto 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.logo-container {
+  margin: auto;
+}
+
+.logo-container img {
+  height: 50px;
+}
+
+.icons-container {
+  margin: auto;
+}
+
+.icons-container a {
+  padding: 5px;
+}
+
+nav {
+  margin: auto;
+}
+
+/* banner styles */
+
+.about-banner-part {
+    max-width: 1122px;
+    margin: auto;
+}
+
+.banner-about {
+  margin: auto;
+  background-image: linear-gradient(#f94e4b 75%, #222324 100%);
+}
+
+.banner-about img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+
+.h1-about {
+  background-color: #f94e4b;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.h1-about h1 {
+  max-width: 560px;
+  width: 100%;
+  margin:auto;
+}
+
+.p-about {
+  background-color: #222324;
+}
+
+.p-about p {
+  max-width: 650px;
+  margin: auto;
+  padding: 60px;
+}
+
+/* main content styles */
+
+.bio {
+  max-width: 880px;
+  width: 100%;
+  margin: 70px auto;
+}
+
+.bio img {
+  height: 350px;
+  float: left;
+  clear: both;
+}
+
+/* table styles */
+
+/* footer styles */
