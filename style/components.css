@@ -3,6 +3,18 @@
  ****************************************/
 
 /* header styles */
+html, body {
+  height: 100%
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
 
 header {
     display: flex;
@@ -44,24 +56,31 @@ nav {
 /* banner styles */
 
 .about-banner-part {
-    max-width: 1122px;
-    margin: auto;
-}
-
-.banner-about {
+  max-width: 1122px;
   margin: auto;
-  background-image: linear-gradient(#f94e4b 75%, #222324 100%);
 }
 
-.banner-about img {
+.banner {
+  margin: auto;
+}
+
+.banner img {
   margin: 0;
   padding: 0;
   display: block;
   width: 100%;
 }
 
+.banner-home {
+  width: 1122px;
+}
+
+.banner-home img {
+display: block;
+  margin: auto;
+}
+
 .h1-about {
-  background-color: #f94e4b;
   height: 120px;
   display: flex;
   justify-content: center;
@@ -73,11 +92,13 @@ nav {
   margin:auto;
 }
 
-.p-about {
-  background-color: #222324;
+.p-about p {
+  max-width: 650px;
+  margin: auto;
+  padding: 60px;
 }
 
-.p-about p {
+.p-about h2 {
   max-width: 650px;
   margin: auto;
   padding: 60px;
@@ -85,18 +106,42 @@ nav {
 
 /* main content styles */
 
-.bio {
-  max-width: 880px;
+.image-text-container {
   width: 100%;
-  margin: 70px auto;
+  display: flex;
 }
 
-.bio img {
-  height: 350px;
-  float: left;
-  clear: both;
+.text-container {
+  margin : auto;
+}
+
+.image-home {
+  width: 400px;
 }
 
 /* table styles */
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #222324;
+}
+
+table td {
+    border-bottom: 1px solid #222324;
+    padding:5px;
+}
+
 /* footer styles */
+
+footer {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+footer p {
+  width: 100%;
+  margin:auto;
+}

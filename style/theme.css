@@ -7,6 +7,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     line-height: 1.4;
+    margin: 0;
 }
 
 h1, h2, h3, h4 {
@@ -22,19 +23,22 @@ h1 {
   border: 1px solid white;
 }
 
-.bio h2 {
+.text-container h2 {
   text-transform: uppercase;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-.bio h4 {
+.text-container h4 {
   font-style: italic;
   color: #939495;
-  padding-bottom: 10px;
   padding-top: 0px;
   margin-top: 0;
-  border-bottom: 1px solid #222324;
+}
+
+.text-container p {
+  border-top: 1px solid #222324;
+  padding-top: 10px;
 }
 
 main {
@@ -47,6 +51,12 @@ main {
 a {
     text-decoration: none;
 }
+
+.contact-email, .contact-phone {
+  text-align: center;
+}
+
+
 
 /* unvisited link */
  a:link {
@@ -66,7 +76,50 @@ a:active {
     color: #222324;
 }
 
+.p-about {
+  background-color: #222324;
+}
+
 .p-about p {
   color: white;
   text-align: center;
+}
+
+.p-about h2 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.image-container img {
+  margin: 10px 60px 10px 10px;
+}
+
+.banner.about, .banner-home {
+  background-image: linear-gradient(#f94e4b 75%, #222324 100%);
+}
+
+.h1-about {
+  background-color: #f94e4b;
+}
+
+footer {
+  background-color: #222324;
+  color: white;
+  text-align: center;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+.contact-email a {
+  color: #939495;
+  text-decoration: underline;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.contact-phone a {
+  font-size: 28px;
 }
